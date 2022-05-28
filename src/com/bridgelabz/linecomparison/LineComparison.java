@@ -15,6 +15,13 @@ public class LineComparison {
         double distance = Math.sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) * (y2 - y1));
 
         System.out.println("Distance between two points :" + distance);
+        LineComparison a1 = new LineComparison();
+        LineComparison a2 = new LineComparison();
+        LineComparison a3 = new LineComparison();
+        LineComparison a4 = new LineComparison();
+
+        System.out.println(a1.equals(a4));
+        System.out.println(a3.equals(a1));
     }
 }
 
